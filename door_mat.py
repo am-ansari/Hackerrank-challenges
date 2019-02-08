@@ -1,11 +1,15 @@
 # -*- coding: utf-8 -*-
 """
-Created on Thu Feb  7 21:07:34 2019
+Printing a pattern as shown below (Size 7x21)
+---------.|.---------
+------.|..|..|.------
+---.|..|..|..|..|.---
+-------WELCOME-------
+---.|..|..|..|..|.---
+------.|..|..|.------
+---------.|.---------
 
-@author: Abdullah
 """
-import math
-
 def print_doormat(n,m):
 
     midCol = n//2
@@ -27,11 +31,10 @@ def print_doormat(n,m):
         
 if __name__ == '__main__':
     
-    num = 4#int(input())
+    num = int(input())
     print("Size: "+str(num)+" x "+str(num*3))
     print_doormat(num,num*3)   
-
-    print(9//2)   
+ 
         
           
         
